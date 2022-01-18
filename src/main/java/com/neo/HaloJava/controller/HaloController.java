@@ -9,6 +9,6 @@ public class HaloController
 	@GetMapping(value = "/")
 	public String getPage()
 	{
-		return "Welcome to Java Spring Boot";
+		return "Welcome to Java Spring Boot: NeoJobHunter";
 	}
 }
