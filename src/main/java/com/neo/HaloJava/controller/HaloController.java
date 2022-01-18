@@ -11,4 +11,10 @@ public class HaloController
 	{
 		return "Welcome to Java Spring Boot: NeoJobHunter";
 	}
+	@GetMapping(value = "/pages")
+	public String getPages()
+	{
+		return "Welcome to Java Spring Boot: NeoJobHunter";
+	}
+	
 }
